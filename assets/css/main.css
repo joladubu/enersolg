@@ -84,7 +84,6 @@ html {
   line-height: 1.4; }
   html *::first-letter {
     text-transform: uppercase; }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -101,6 +100,7 @@ html {
 /*
  * A better looking default horizontal rule
  */
+
 hr {
   display: block;
   height: 1px;
@@ -1263,7 +1263,7 @@ input {
   justify-content: space-between;
   position: relative; }
   .header-area .logo {
-    width: 250px; }
+    width: 250px;}
     .header-area .logo a {
       display: block;
       /*background: #b9243c;*/
@@ -4054,6 +4054,10 @@ input {
     -webkit-animation: outer-ripple 2000ms linear infinite;
     -moz-animation: outer-ripple 2000ms linear infinite;
     animation: outer-ripple 2000ms linear infinite; }
+
+    #my-footer{
+      text-transform: lowercase;
+    }
 
 @keyframes outer-ripple {
   0% {
